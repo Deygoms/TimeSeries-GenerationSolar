@@ -2,7 +2,7 @@
 
 Análisis de series temporales aplicado a datos de generación de un parque solar equipado con paneles Jinko Solar Tiger Neo JKM565N-72HL4.
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto implementa técnicas de análisis de series de tiempo en Python para estudiar y caracterizar el comportamiento de un sistema fotovoltaico. El análisis se centra en la identificación de patrones de generación, ciclos dominantes y características espectrales de la radiación solar y la potencia generada.
 
@@ -14,7 +14,7 @@ Este proyecto implementa técnicas de análisis de series de tiempo en Python pa
 - **Matplotlib**: Visualización de datos
 - **SciPy**: Análisis de señales y transformada de Fourier
 
-## 📊 Estructura de Datos
+## Estructura de Datos
 
 Los datos de entrada se encuentran en formato CSV con la siguiente estructura:
 
@@ -31,7 +31,7 @@ Los datos de entrada se encuentran en formato CSV con la siguiente estructura:
 - Variables: Generación eléctrica (kW) y Radiación solar (W/m²)
 - Formato de fecha: DD/MM/YYYY HH:MM
 
-## 🎯 Objetivos del Análisis
+## Objetivos del Análisis
 
 1. **Análisis Espectral**: Identificación de frecuencias dominantes mediante FFT (Fast Fourier Transform)
 2. **Caracterización Temporal**: Estudio de patrones diarios, semanales y estacionales
@@ -52,7 +52,7 @@ O ejecutar directamente el script:
 python analisis_solar.py
 ```
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 ```
 .
 ├── TrabajoF_seriesT.ipynb    # Notebook principal con el análisis
@@ -64,7 +64,7 @@ python analisis_solar.py
 └── README.md                 # Este archivo
 ```
 
-## 🔬 Metodología
+## Metodología
 
 ### 1. Preprocesamiento de Datos
 - Carga y limpieza de datos
@@ -88,7 +88,7 @@ python analisis_solar.py
 - Espectros de frecuencia
 - Diagramas de correlación
 
-## 📈 Resultados Esperados
+## Resultados Esperados
 
 El análisis proporciona:
 - **Frecuencias dominantes** en los datos de radiación y generación
@@ -96,7 +96,7 @@ El análisis proporciona:
 - **Relación funcional** entre radiación y generación
 - **Indicadores de desempeño** del sistema fotovoltaico
 
-## ⚡ Especificaciones del Sistema
+## Especificaciones del Sistema
 
 **Paneles Solares**: Jinko Solar Tiger Neo JKM565N-72HL4
 
@@ -104,18 +104,18 @@ El análisis proporciona:
 - Tecnología: Monocristalino PERC
 - Eficiencia del módulo: ~21.8%
 
-## 👥 Autor
+## Autor
 
 **EquipoUTB**
 - Universidad Tecnológica de Bolívar
 - Maestría en Ingeniería Eléctrica
 - Línea de investigación: Sistemas de energía renovable y optimización
 
-## 📝 Licencia
+## Licencia
 
 Este proyecto está bajo las politicas de divulgación dadas por la Universidad Tecnológica de Bolivar
 
-## 📧 Contacto
+## Contacto
 
 Para preguntas o colaboraciones, por favor abra un issue en el repositorio.
 
